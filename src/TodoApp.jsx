@@ -45,7 +45,7 @@ class TodoApp extends Component {
     console.log("TodoApp Mounted");
   }
 
-  // where to trigger task completion in order to crossout the completed task
+  // where to trigger task completion in order to cross it out the completed task
   toggleComplete = (taskId) => {
     this.setState((prevState) => ({
       tasks: prevState.tasks.map((task) =>
@@ -58,7 +58,7 @@ class TodoApp extends Component {
   render() {
     return (
       <Fragment>
-        <div className="container mt-5 w-75 w-md-50">
+        <div className="container mt-5 w-sm-75 w-md-50 w-lg-30">
           <h2 className="text-center text-dark">
             FIP FontEnd Week 3 Deliverable
           </h2>
