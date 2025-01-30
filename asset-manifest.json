@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FIP-FrontEnd-Week-3/static/css/main.ca67ef22.css",
+    "main.js": "/FIP-FrontEnd-Week-3/static/js/main.45a9fe23.js",
+    "index.html": "/FIP-FrontEnd-Week-3/index.html",
+    "main.ca67ef22.css.map": "/FIP-FrontEnd-Week-3/static/css/main.ca67ef22.css.map",
+    "main.45a9fe23.js.map": "/FIP-FrontEnd-Week-3/static/js/main.45a9fe23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca67ef22.css",
+    "static/js/main.45a9fe23.js"
+  ]
+}
