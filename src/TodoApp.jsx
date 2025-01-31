@@ -58,7 +58,7 @@ class TodoApp extends Component {
   render() {
     return (
       <Fragment>
-        <div className="container mt-5 w-sm-75 w-md-50 w-lg-30">
+        <div className="container mt-5">
           <h2 className="text-center text-dark">
             FIP FontEnd Week 3 Deliverable
           </h2>
@@ -69,7 +69,7 @@ class TodoApp extends Component {
           <small className="d-block text-center text-muted">
             click on the tick box to mark a learning outcome finished
           </small>
-          <ul className="list-group">
+          <ul className="list-group tasks">
             {this.state.tasks.map((task) => (
               <Task
                 key={task.id}
